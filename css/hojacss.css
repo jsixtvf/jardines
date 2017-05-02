@@ -1,0 +1,18 @@
+.col-sm-4{background-color:blue;}
+.container{background-color:grey;
+}
+
+#banner{
+left:89%;
+width:10%;
+height:98%;
+top:10%;
+margin-left:2%;
+background-color:green;
+  position:absolute;
+}
+.col-sm-2{background-color:white;}
+#masnoticias{
+  background-color:pink;
+  left:50%;
+}
