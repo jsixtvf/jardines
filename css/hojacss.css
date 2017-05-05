@@ -1,5 +1,6 @@
 .col-sm-4{background-color:blue;}
 .container{background-color:grey;
+  margin-right:300px;
 }
 
 #banner{
@@ -11,8 +12,25 @@ margin-left:2%;
 background-color:green;
   position:absolute;
 }
-.col-sm-2{background-color:white;}
+.col-sm-2{
+  background-color:white;}
+
 #masnoticias{
   background-color:pink;
   left:50%;
 }
+
+#foto1{
+  
+}
+#foto2{
+}
+
+#descripcio1{
+  background-color:white;
+}
+
+#descripcio2{
+  background-color:white;
+}
+  
