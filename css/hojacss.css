@@ -13,11 +13,15 @@ background-color:green;
   position:absolute;
 }
 .col-sm-2{
-  background-color:orange;}
+  background-color:orange;
+}
 
 #masnoticias{
   background-color:pink;
   left:50%;
+  width:3%;
+  height:3%;
+   
 }
 
 #foto1{
