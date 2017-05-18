@@ -4,14 +4,15 @@
 }
 
 #banner{
-left:89%;
-width:10%;
-height:98%;
-top:10%;
-margin-left:2%;
-background-color:green;
-  position:absolute;
+  left:89%;
+  width:10%;
+  height:98%;
+  margin-top:10%;
+  margin-left:2%;
+  background-color:green;
+  position:relative;
 }
+
 .col-sm-2{
   background-color:orange;
 }
