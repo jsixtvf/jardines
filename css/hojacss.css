@@ -1,4 +1,4 @@
-.col-sm-4{background-color:blue;}
+.col-sm-5{background-color:blue;}
 .container{background-color:grey;
   margin-right:300px;
 }
@@ -31,8 +31,9 @@
 #foto2{
 }
 
-#descripcio1{
+#descrip{
   background-color:red;
+  text-align:left;
 }
 
 #descripcio2{
