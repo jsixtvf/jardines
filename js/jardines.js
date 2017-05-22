@@ -1,4 +1,15 @@
-$(function(){
+
+cargarJSON(){
+    
+    $(window).scroll(function(){
+        
+        if($(window).scrollTop()+$(window).height() > $(document.height()-90){
+           pintarJSON();
+           }
+    
+}
+
+$(function pintarJSON(){
     //cargar comunidades
     $.getJSON( "json/jardines.json", function( jsonObject ) {
         ponerJardines( jsonObject );
