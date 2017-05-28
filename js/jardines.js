@@ -25,3 +25,15 @@ function ponerJardines(json){
        
      }); 
 }
+
+
+/*var data = JSON.parse(txt);  //parse the JSON
+data.employees.push({        //add the employee
+    firstName:"Mike",
+    lastName:"Rut",
+    time:"10:00 am",
+    email:"rut@bah.com",
+    phone:"800-888-8888",
+    image:"images/mike.jpg"
+});
+txt = JSON.stringify(data); */
