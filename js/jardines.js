@@ -18,10 +18,10 @@ $(function pintarJSON(){
 });
 
 function ponerJardines(json){
-     $.each( json, function( i, jardines ) {
+     $.each( json, function( i, container ) {
          
          //$("#jardines").append( "<option value='" + coad.slug + "'>" + coad.coad + "</option>" );
-         $('#jardines').append($('<option>', { value: , text :  }));
+         $("container").append( $('<jardin>', {"titulo": , "img" : , "descripcion":, "fecha": }));
        
      }); 
 }
