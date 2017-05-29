@@ -25,7 +25,7 @@ function ponerJardines(json){
      $.each( json, function( i, jardines ) {
          
          //$("#jardines").append( "<option value='" + coad.slug + "'>" + coad.coad + "</option>" );
-         $("vacio").append( $('<div>', { id: "jardines"+(i+1), text: jardines.titulo+" "+jardines.img+" "+jardines.descripcion+" "+
+         $("vacio").append( $('<div>', { id: "jardines"+ ncargas + ".json, text: jardines.titulo+" "+jardines.img+" "+jardines.descripcion+" "+
                                             jardines.fecha }));
          
      }); 
