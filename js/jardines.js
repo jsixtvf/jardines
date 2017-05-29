@@ -28,7 +28,7 @@ function ponerJardines(json){
          $("vacio").append( $('<div>', { id: "jardines"+ ncargas + ".json, text: jardines.titulo+" "+jardines.img+" "+jardines.descripcion+" "+
                                             jardines.fecha }));
          
-     }); 
+     //}); 
 }
 
 
