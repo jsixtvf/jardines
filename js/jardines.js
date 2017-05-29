@@ -21,10 +21,9 @@ function ponerJardines(json){
      $.each( json, function( i, jardines ) {
          
          //$("#jardines").append( "<option value='" + coad.slug + "'>" + coad.coad + "</option>" );
-         $("container").append( $('<div>', { id: "jardines"+(i+1), text: jardines.titulo+" "+jardines.img+" "+jardines.descripcion+" "+
+         $("vacio").append( $('<div>', { id: "jardines"+(i+1), text: jardines.titulo+" "+jardines.img+" "+jardines.descripcion+" "+
                                             jardines.fecha }));
-         $('#'+"marco"+(i+i)).append($('<img>',{src: "link"}));
-       
+         
      }); 
 }
 
@@ -34,10 +33,8 @@ function ponerJardines(json){
     
     
     
-    /*  $(function() {
-        
+/*  $(function() {
    var people = [];
-
    $.getJSON('people.json', function(data) {
        $.each(data.person, function(i, f) {
           var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
@@ -46,7 +43,6 @@ function ponerJardines(json){
      });
    });
 });
-
 
 var data = JSON.parse(txt);  //parse the JSON
 data.employees.push({        //add the employee
@@ -57,4 +53,6 @@ data.employees.push({        //add the employee
     phone:"800-888-8888",
     image:"images/mike.jpg"
 });
-txt = JSON.stringify(data); */
+txt = JSON.stringify(data); 
+
+*/
