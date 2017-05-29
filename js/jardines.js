@@ -15,7 +15,7 @@ cargarJSON(){
 
 $(function pintarJSON(){
     //cargar comunidades
-    $.getJSON( "json/jardines.json", function( jsonObject ) {
+    $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/8a6699df/json/jardines.json", function( jsonObject ) {
         ponerJardines( jsonObject );
     });
 
@@ -32,11 +32,16 @@ function ponerJardines(json){
 }
 
 
+    
 
-    
-    
-    
-    
+
+
+
+
+
+
+
+
 /*  $(function() {
    var people = [];
    $.getJSON('people.json', function(data) {
