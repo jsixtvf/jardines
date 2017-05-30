@@ -25,8 +25,8 @@ function ponerJardines(json){
      $.each( json, function( i, jardines ) {
          
          //$("#jardines").append( "<option value='" + coad.slug + "'>" + coad.coad + "</option>" );
-         $("vacio").append( $('<div>', { id: "jardines"+ ncargas + ".json, text: jardines.titulo+" "+jardines.img+" "+jardines.descripcion+" "+
-                                            jardines.fecha }));
+         $("vacio").append( $('<div>', { id: "jardines"+ ncargas + ".json, text: jardines.titulo+" "+jardines.foto+" "+jardines.descripcion+" "+
+                                            jardines.fecha }, </div>));
          
      }); 
 }
@@ -42,12 +42,6 @@ $(".jr").click(function() {
   window.location = $(this).find("a").attr("href"); 
   return false;
 });
-
-
-
-
-
-
 
 
 /*  $(function() {
