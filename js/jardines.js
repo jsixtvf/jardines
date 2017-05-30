@@ -29,6 +29,14 @@ function ponerJardines(json){
          
      }); 
 }
+                            
+ function ponerComunidades(json){
+     $.each( json, function( i, comunidad ) {
+        
+         $('#comunidades').append($('<option>', { value: comunidad.slug, text : comunidad.comunidad }));
+         
+     }); 
+}
 
 
     
