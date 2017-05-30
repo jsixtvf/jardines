@@ -30,15 +30,7 @@ function ponerJardines(json){
      }); 
 }
                             
- function ponerComunidades(json){
-     $.each( json, function( i, comunidad ) {
-        
-         $('#comunidades').append($('<option>', { value: comunidad.slug, text : comunidad.comunidad }));
-         
-     }); 
-}
-
-
+ 
     
 $("ji").click(function() {
   window.location = $(this).find("a").attr("href"); 
@@ -49,28 +41,3 @@ $("jr").click(function() {
   window.location = $(this).find("a").attr("href"); 
   return false;
 });
-
-
-/*  $(function() {
-   var people = [];
-   $.getJSON('people.json', function(data) {
-       $.each(data.person, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
-           "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
-           $(tblRow).appendTo("#userdata tbody");
-     });
-   });
-});
-
-var data = JSON.parse(txt);  //parse the JSON
-data.employees.push({        //add the employee
-    firstName:"Mike",
-    lastName:"Rut",
-    time:"10:00 am",
-    email:"rut@bah.com",
-    phone:"800-888-8888",
-    image:"images/mike.jpg"
-});
-txt = JSON.stringify(data); 
-
-*/
