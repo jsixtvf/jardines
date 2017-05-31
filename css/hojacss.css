@@ -21,11 +21,11 @@
  /* float:right;*/
   width:300px;
   margin-left:5%;
-  top:5px;
+  /*top:5px;*/
   left:95%;
   margin-top:5px;
   position:relative;
-  height:290px;
+  height:auto;
    
 }
 #banner>img{
