@@ -7,7 +7,7 @@
 /*.col-sm-5{background-color:blue;}*/
 
 .container{
-  background-color:white;
+  background-color:lightblue;
   margin-right:300px;
 }
 
@@ -58,6 +58,8 @@ body {
 #descrip{
   background-color:lightgreen;
   text-align:left;
+  border-radius: 20px;
+  box-shadow: 10px 10px grey;
 }
 
 p{
@@ -70,4 +72,6 @@ p{
 
 .row{ background-color: lightblue; }
 
-.footer{ background-color:#b0ff99; }
+a:hover{ 
+color:##fff300; 
+} 
