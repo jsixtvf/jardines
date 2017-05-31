@@ -13,7 +13,7 @@
               $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/8a6699df/json/jardines.json", function( jsonObject ) {
               ponerJardines( jsonObject );
               });
-              });
+             //});
                ncargas++;
              //}
 
