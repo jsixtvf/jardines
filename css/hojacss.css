@@ -24,7 +24,7 @@
   top:100%;
   left:50%;
   margin-top:1%;
-  position:static;
+  position:relative;
  
 }
 #banner>img{
