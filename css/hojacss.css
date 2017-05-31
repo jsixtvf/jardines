@@ -12,15 +12,16 @@
   margin-left:10px;
 }
 
-/*#banner{
-  left:89%;
+#banner{
+  /*left:89%;
   width:290px;
   height:15%;
   margin-top:10%;
-  margin-left:90%;
+  margin-left:90%;*/
   background-color:green;
   position:fixed;
-}*/
+  float:right;
+}
 #banner>img{
   background-size:contain;
 }
