@@ -15,10 +15,23 @@
               ncargas++;
              });
                
-             });
+            
              }
 
-        });
+             });
+            
+            
+      $("ji").click(function() {
+        window.location = $(this).find("a").attr("href"); 
+        return false;
+      });
+
+      $("jr").click(function() {
+        window.location = $(this).find("a").attr("href"); 
+        return false;
+      });
+            
+           
             
         });
 
@@ -34,18 +47,7 @@
       }
 
 
-
-      $("ji").click(function() {
-        window.location = $(this).find("a").attr("href"); 
-        return false;
-      });
-
-      $("jr").click(function() {
-        window.location = $(this).find("a").attr("href"); 
-        return false;
-      });
-            
-            
+ 
             
     
       
