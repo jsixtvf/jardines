@@ -8,7 +8,7 @@
 
 .container{
   background-color:lightblue;
-  margin-right:300px;
+  margin-right:50px;
   margin-left:50px;
   /*max-width:90%;*/
 }
@@ -19,10 +19,10 @@
   height:15%;
   background-color:green;
   float:right;*/
-  
+  width:300px;
   margin-left:10%;
   top:10%;
-  right:3%;
+  right:93%;
   margin-top:1%;
   position:relative;
  
