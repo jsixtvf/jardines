@@ -68,12 +68,12 @@ p{
   text-shadow: 0.1em 0.1em #ffffff
 }
 
-/*#descripcio2{
-  background-color:brown;
-}*/
-
 .row{ background-color: lightblue; }
 
 a:hover{ 
 color:##fff300; 
 } 
+
+#fecha{
+  margin-top:0.5%;
+}
