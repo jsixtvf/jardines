@@ -10,7 +10,7 @@
   background-color:lightblue;
   margin-right:300px;
   margin-left:10px;
-  max-width:80%;
+  max-width:95%;
 }
 
 #banner{
@@ -20,8 +20,7 @@
   background-color:green;
   float:right;*/
   
-  margin-left:3%;
-  position:absolute;
+  margin-left:1%;
   top:10%;
   right:5%;
   margin-top:1%;
@@ -29,6 +28,7 @@
 }
 #banner>img{
   background-size:contain;
+  position:absolute;
 }
 .col-sm-2{
   background-color:orange;
