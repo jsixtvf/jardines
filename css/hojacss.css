@@ -28,8 +28,8 @@
    
 }
 #banner>img{
-  background-size:contain;
-  /*padding-left:5%;*/
+  background-size:cover;
+  padding-left:15%;
     
 }
 .col-sm-2{
