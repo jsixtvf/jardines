@@ -10,21 +10,22 @@
   background-color:lightblue;
   margin-right:300px;
   margin-left:10px;
-  max-width:90%;
+  max-width:80%;
 }
 
 #banner{
   /*left:89%;
   width:290px;
   height:15%;
-
-  margin-left:90%;
-  background-color:green;*/
+  background-color:green;
+  float:right;*/
+  
+  margin-left:3%;
   position:absolute;
   top:10%;
-  right:10%;
+  right:5%;
   margin-top:1%;
-  /*float:right;*/
+ 
 }
 #banner>img{
   background-size:contain;
