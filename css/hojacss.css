@@ -10,7 +10,7 @@
   background-color:lightblue;
   margin-right:300px;
   margin-left:10px;
-  max-width:95%;
+  max-width:90%;
 }
 
 #banner{
@@ -24,11 +24,12 @@
   top:10%;
   right:5%;
   margin-top:1%;
+  position:absolute;
  
 }
 #banner>img{
   background-size:contain;
-  position:absolute;
+  
 }
 .col-sm-2{
   background-color:orange;
