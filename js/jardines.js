@@ -12,16 +12,15 @@
               //$(function pintarJSON(){
               $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/8a6699df/json/jardines.json", function( jsonObject ) {
               ponerJardines( jsonObject );
-             
+              ncargas++;
              });
-               ncargas++;
+               
              });
              }
 
         });
 
-    });
-
+  
 
 
       function ponerJardines(json){
@@ -43,3 +42,11 @@
         window.location = $(this).find("a").attr("href"); 
         return false;
       });
+            
+            
+            
+      });
+      
+            
+            
+            
