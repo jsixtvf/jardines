@@ -1,5 +1,5 @@
 #titulo{
-  background:url('../img/betweengrassandsky.png') 50% 50% no-repeat;
+  background:url('../img/betweengrassandsky.png') 75% 75% no-repeat;
   /*background-size: 90% 90%;*/
   color:white; 
 }
@@ -27,11 +27,11 @@
   background-color:orange;
 }
 
-#masnoticias{
+.btn btn-link btn-primary{
   background-color:pink;
   left:50%;
-  width:3%;
-  height:3%;
+  width:1%;
+  height:1%;
    
 }
 
@@ -59,7 +59,8 @@ body {
   background-color:lightgreen;
   text-align:left;
   border-radius: 10px;
-  box-shadow: 10px 10px grey;
+  /*box-shadow: 10px 10px grey;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding:1%;
   margin-bottom:0.5%;
 }
@@ -73,6 +74,10 @@ p{
 a:hover{ 
 color:##fff300; 
 } 
+
+a:visited{
+  color:rgb(255, 167, 0);
+}
 
 #fecha{
   margin-top:0.5%;
