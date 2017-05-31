@@ -18,10 +18,10 @@
   height:15%;
 
   margin-left:90%;
-  background-color:green;
-  position:fixed;*/
+  background-color:green;*/
+  position:fixed;
   margin-top:1%;
-  float:right;
+  /*float:right;*/
 }
 #banner>img{
   background-size:contain;
