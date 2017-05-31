@@ -4,8 +4,10 @@
                   
 
         $(window).scroll(function(){
-
-            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<2){
+             
+         while(ncargas<2){
+                   
+            if($(window).scrollTop()+$(window).height() > $(document).height()-90 ){
                   
               alert("FUNCIONA");
               
@@ -27,6 +29,8 @@
                ncargas++;
                   
              }
+               
+         }
 
           });
             
