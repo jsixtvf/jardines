@@ -1,4 +1,4 @@
-var int ncargas=0;
+var ncargas=0;
 
 $(document).ready(function(){
                   
