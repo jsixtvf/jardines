@@ -5,8 +5,10 @@
   /*50% 50%*/
 }
 
-.col-sm-5{background-color:blue;}
-.container{background-color:grey;
+/*.col-sm-5{background-color:blue;}*/
+
+.container{
+  background-color:white;
   margin-right:300px;
 }
 
