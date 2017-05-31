@@ -20,8 +20,9 @@
 
   margin-left:90%;
   background-color:green;*/
-  position:fixed;
+  position:absolute;
   top:10%;
+  right:10%;
   margin-top:1%;
   /*float:right;*/
 }
