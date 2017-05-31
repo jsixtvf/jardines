@@ -6,6 +6,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         
         if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<2){
+          alert("FUNCIONA");
            pintarJSON();
            ncargas++;
            }
