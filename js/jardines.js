@@ -1,6 +1,7 @@
 var int ncargas=0;
 
-cargarJSON(){
+$(document).ready(function(){
+                  
     
     $(window).scroll(function(){
         
@@ -11,7 +12,7 @@ cargarJSON(){
     
     });
     
-}
+});
 
 $(function pintarJSON(){
     //cargar comunidades
