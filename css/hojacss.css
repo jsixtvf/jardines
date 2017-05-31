@@ -25,11 +25,11 @@
   left:95%;
   margin-top:1%;
   position:relative;
-  padding-left:50%;
- 
+   
 }
 #banner>img{
   background-size:contain;
+  padding-left:50%;
     
 }
 .col-sm-2{
