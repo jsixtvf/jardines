@@ -1,6 +1,6 @@
 #titulo{
   background:url('../img/betweengrassandsky.png') 50% 50% no-repeat;
-  background-size:auto;
+  background-size:100% 100%;
   color:white;
 }
 
@@ -12,13 +12,15 @@
 #banner{
   left:89%;
   width:290px;
-  height:98%;
+  height:15%;
   margin-top:10%;
   margin-left:2%;
   background-color:green;
-  position:relative;
+  position:fixed;
 }
-
+#banner>img{
+  background-size:contain;
+}
 .col-sm-2{
   background-color:orange;
 }
@@ -54,6 +56,10 @@ body {
 #descrip{
   background-color:lightgreen;
   text-align:left;
+}
+
+p{
+  text-shadow: 0.1em 0.1em #ffffff
 }
 
 /*#descripcio2{
