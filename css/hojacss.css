@@ -36,28 +36,29 @@ body {
 }
 
 #foto1>img{
-     background-image: url("img/2014_06_07_jardín ingles_stourhead 01.jpg");
+     /*background-image: url("");*/
+     max-width:100%;
      position: relative;
 }
 
 #foto2>img{
-     background-image: url("img/jardin_renacentista.jpg");
+     max-width:100%;
      position: relative;
 }
 
 #foto3>img{
-     background-image: url("img/renauddemontaubon1462-70.jpg");
+     max-width:100%;
      position: relative;
 }
 
 #descrip{
-  background-color:red;
+  background-color:lightgreen;
   text-align:left;
 }
 
-#descripcio2{
+/*#descripcio2{
   background-color:brown;
-}
+}*/
 
 .row{ background-color: lightblue; }
   
