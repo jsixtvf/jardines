@@ -1,6 +1,6 @@
 #titulo{
   background:url('../img/betweengrassandsky.png') 75% 75% no-repeat;
-  /*background-size: 90% 90%;*/
+  background-size: 90% 90%;
   color:white; 
 }
 
@@ -75,9 +75,9 @@ a:hover{
 color:##fff300; 
 } 
 
-a:visited{
+/*a:visited{
   color:rgb(255, 167, 0);
-}
+}*/
 
 #fecha{
   margin-top:0.5%;
