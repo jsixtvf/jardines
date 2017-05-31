@@ -9,8 +9,8 @@
 .container{
   background-color:lightblue;
   margin-right:300px;
-  margin-left:10px;
-  max-width:90%;
+  margin-left:50px;
+  /*max-width:90%;*/
 }
 
 #banner{
@@ -20,9 +20,9 @@
   background-color:green;
   float:right;*/
   
-  margin-left:1%;
+  margin-left:10%;
   top:10%;
-  right:5%;
+  right:3%;
   margin-top:1%;
   position:relative;
  
