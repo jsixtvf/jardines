@@ -6,8 +6,8 @@
         $(window).scroll(function(){
 
             if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<2){
-              /*alert("FUNCIONA");
-                pintarJSON();*/
+              alert("FUNCIONA");
+              //pintarJSON();
                   
               //$(function pintarJSON(){
               $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/8a6699df/json/jardines.json", function( jsonObject ) {
@@ -18,6 +18,8 @@
              });
              }
 
+        });
+            
         });
 
   
@@ -45,7 +47,7 @@
             
             
             
-      });
+    
       
             
             
