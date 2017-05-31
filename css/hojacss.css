@@ -16,13 +16,13 @@
   width:290px;
   height:15%;
   margin-top:10%;
-  margin-left:2%;
+  margin-left:90%;
   background-color:green;
   position:fixed;
 }
-#banner>img{
+/*#banner>img{
   background-size:contain;
-}
+}*/
 .col-sm-2{
   background-color:orange;
 }
