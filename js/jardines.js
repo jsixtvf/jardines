@@ -6,19 +6,29 @@
         $(window).scroll(function(){
 
             if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<2){
-              alert("FUNCIONA");
-              //pintarJSON();
                   
+              alert("FUNCIONA");
+              
+              //pintarJSON();
               //$(function pintarJSON(){
-              $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/8a6699df/json/jardines.json", function( jsonObject ) {
+                  
+              if(ncargas=0){ 
+              $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/7027bf9b/json/jardines1.json", function( jsonObject ) {
               ponerJardines( jsonObject );
-              ncargas++;
-             });
-               
-            
+              });  
+            }
+                  
+              if(ncargas=1){
+              $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/7027bf9b/json/jardines2.json", function( jsonObject ) {
+              ponerJardines( jsonObject );
+              });   
+            }
+                 
+               ncargas++;
+                  
              }
 
-             });
+          });
             
             
       $("ji").click(function() {
@@ -40,7 +50,7 @@
 
       function ponerJardines(json){
            $.each( json, function( i, jardines ) {
-               $('#vacio').append( $('<div>',
+               $("#vacio").append( $('<div>',
         { id: '"jardines"+ncargas+."json"', text: jardines.titulo+" "+jardines.foto+" "+jardines.descripcion+" "+jardines.fecha }));
 
            }); 
