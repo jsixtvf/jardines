@@ -1,8 +1,7 @@
 #titulo{
-  background:url('../img/betweengrassandsky.png')  no-repeat;
-  background-size: 90% 90%;
-  color:white;
-  /*50% 50%*/
+  background:url('../img/betweengrassandsky.png') 50% 50% no-repeat;
+  /*background-size: 90% 90%;*/
+  color:white; 
 }
 
 /*.col-sm-5{background-color:blue;}*/
