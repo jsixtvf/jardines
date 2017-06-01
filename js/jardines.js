@@ -44,18 +44,16 @@
             });
             
            
+
+           function ponerJardines(json){
+                 $.each( json, function( i, jardines ) {
+                     $("#vacio").append( $('<div>',
+              { id: '"jardines"+ncargas+."json"', text: jardines.titulo+" "+jardines.foto+" "+jardines.descripcion+" "+jardines.fecha }));
+
+                 }); 
+            }
             
-  });
-
-  
-
-
-     function ponerJardines(json){
-           $.each( json, function( i, jardines ) {
-               $("#vacio").append( $('<div>',
-        { id: '"jardines"+ncargas+."json"', text: jardines.titulo+" "+jardines.foto+" "+jardines.descripcion+" "+jardines.fecha }));
-
-           }); 
-      }
+            
+ });
 
       
