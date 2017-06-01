@@ -7,7 +7,7 @@
              
         
                    
-            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<2){
+            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas=0){
                   
                   alert("FUNCIONA1");
               //pintarJSON();
@@ -19,7 +19,7 @@
               ncargas++;
             }
                   
-            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<1){
+            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas=1){
                   alert("FUNCIONA2");
               $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/7027bf9b/json/jardines2.json", function( jsonObject ) {
               ponerJardines( jsonObject );
