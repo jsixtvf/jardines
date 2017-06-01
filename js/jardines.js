@@ -5,7 +5,7 @@
 
         $(window).scroll(function(){
              
-         while(ncargas<2){
+        
                    
             if($(window).scrollTop()+$(window).height() > $(document).height()-90 ){
                   
@@ -26,9 +26,11 @@
               ponerJardines( jsonObject );
               ncargas++;
               });   
-              }     
+              }  
+                  
+                  
             }
-          }
+     
 
           });
             
