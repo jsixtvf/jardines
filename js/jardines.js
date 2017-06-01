@@ -7,7 +7,7 @@
              
         
                    
-            if($(window).scrollTop()+$(window).height() > $(document).height()-90 ){
+            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<2){
                   
               alert("FUNCIONA");
               
