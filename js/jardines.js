@@ -13,14 +13,14 @@
               //pintarJSON();
               //$(function pintarJSON(){
                   if(ncargas<1){
-              $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/7027bf9b/json/jardines1.json", function( jsonObject ) {
+              $.getJSON( "json/jardines1.json", function( jsonObject ) {
               ponerJardines( jsonObject );
               
               });  
               ncargas++;
                }
                  if(ncargas>=1){
-                        $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/b0fa60fb/json/jardines2.json", function( jsonObject ) {
+                        $.getJSON( "json/jardines2.json", function( jsonObject ) {
               ponerJardines( jsonObject );
               
               });  
