@@ -7,7 +7,7 @@
              
         
                    
-            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas==0){
+            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<1){
                   
                   alert("FUNCIONA1");
               //pintarJSON();
