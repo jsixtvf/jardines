@@ -7,20 +7,30 @@
              
         
                    
-            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas<1){
+            if($(window).scrollTop()+$(window).height() > $(document).height()-90){
                   
                 //  alert("FUNCIONA1");
               //pintarJSON();
               //$(function pintarJSON(){
+                  if(ncargas<1){
               $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/7027bf9b/json/jardines1.json", function( jsonObject ) {
               ponerJardines( jsonObject );
               
               });  
               ncargas++;
-              $(document).height()=0;
+               }
+                 if(ncargas>=1){
+                        $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/b0fa60fb/json/jardines2.json", function( jsonObject ) {
+              ponerJardines( jsonObject );
+              
+              });  
+              ncargas++;
+                       
+                 }
+              
             }
                   
-            if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas>=1){
+         /*   if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas>=1 ){
            
                 //  alert("FUNCIONA2"+ncargas);
               $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/b0fa60fb/json/jardines2.json", function( jsonObject ) {
@@ -28,7 +38,7 @@
               
               });  
               ncargas++;
-            }  
+            }  */
  
         });
             
