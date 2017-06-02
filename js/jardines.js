@@ -21,7 +21,7 @@
                   
             if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas==1){
                   alert("FUNCIONA2");
-              $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/7027bf9b/json/jardines2.json", function( jsonObject ) {
+              $.getJSON( "https://cdn.rawgit.com/jsixtvf/jardines/b0fa60fb/json/jardines2.json", function( jsonObject ) {
               ponerJardines( jsonObject );
               
               });  
