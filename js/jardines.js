@@ -17,6 +17,7 @@
               
               });  
               ncargas++;
+              $(document).height()=0;          
                }
                  if(ncargas==1){
                         $.getJSON( "json/jardines2.json", function( jsonObject ) {
