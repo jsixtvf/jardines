@@ -9,9 +9,8 @@
                    
             if($(window).scrollTop()+$(window).height() > $(document).height()-90){
                   
-                //  alert("FUNCIONA1");
-              //pintarJSON();
-              //$(function pintarJSON(){
+                //  alert("FUNCIONA1");  //pintarJSON();  //$(function pintarJSON(){
+                  
                   if(ncargas<1){
               $.getJSON( "json/jardines1.json", function( jsonObject ) {
               ponerJardines( jsonObject );
