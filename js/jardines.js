@@ -21,6 +21,7 @@
                   ncargas++;
             }
               
+              alert($(document).height());
               
               if($(window).scrollTop()+$(window).height() > $(document).height()-90){
                  if(ncargas==1){
