@@ -18,7 +18,7 @@
               });  
               ncargas++;
                }
-                 if(ncargas>=1&&ncargas<3){
+                 if(ncargas==1){
                         $.getJSON( "json/jardines2.json", function( jsonObject ) {
               ponerJardines( jsonObject );
               
