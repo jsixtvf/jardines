@@ -16,23 +16,24 @@
               ponerJardines( jsonObject );
               
               });  
-              ncargas++;
-                      
+                   
                }
-                  
-              window.scrollTo(0,0); 
-                  
-                  
+                  ncargas++;
+            }
+              
+              
+              if($(window).scrollTop()+$(window).height() > $(document).height()-90){
                  if(ncargas==1){
-                        $.getJSON( "json/jardines2.json", function( jsonObject ) {
+              $.getJSON( "json/jardines2.json", function( jsonObject ) {
               ponerJardines( jsonObject );
               
               });  
-              ncargas++;
-                       
-                 }
-              
+                  
+                }
+                     ncargas++;
             }
+              
+              
                   
          /*   if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas>=1 ){
            
