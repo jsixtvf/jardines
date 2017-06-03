@@ -17,8 +17,12 @@
               
               });  
               ncargas++;
-              $(document).height()=0;          
+                      
                }
+                  
+              window.scrollTo(0,0); 
+                  
+                  
                  if(ncargas==1){
                         $.getJSON( "json/jardines2.json", function( jsonObject ) {
               ponerJardines( jsonObject );
