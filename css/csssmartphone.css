@@ -103,9 +103,5 @@ color:##fff300;
 #vacio{
   background-color:#e6ffff;
   text-shadow: 0.1em 0.1em #ffffff
-}
-
-#vacio>div>jardines.titulo{
-  
-  color:red;
+  padding:3%;
 }
