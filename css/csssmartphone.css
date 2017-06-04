@@ -15,20 +15,13 @@
 }
 
 #banner{
-  /*left:89%;
-  width:290px;
-  height:15%;
-  background-color:green;
-  float:right;*/
-  width:300px;
-  margin-left:5%;
- 
-  /*top:5px;*/
-  left:90%;
+
+  width:95%;
+  left:35%;
   margin-top:5px;
   position:absolute;
   height:auto;
-  bottom:5%;
+  bottom:100%;
    
 }
 #banner>img{
@@ -48,13 +41,6 @@
    
 }
 
-.button{
-  background-color:lightgreen;
-}
-
-/*body {
-    max-width: 99%;
-}*/
 
 #foto1>img{
      /*background-image: url("");*/
