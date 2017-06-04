@@ -44,7 +44,8 @@
             }
             
             
- });
+      });
+             });
             
             /*   if($(window).scrollTop()+$(window).height() > $(document).height()-90 && ncargas>=1 ){
            
@@ -56,7 +57,7 @@
               ncargas++;
             } 
  
-        });
+       
             
             
             $("ji").click(function() {
