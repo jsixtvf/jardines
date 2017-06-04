@@ -1,0 +1,111 @@
+#titulo{
+  background:url('../img/betweengrassandsky.png') 75% 75% no-repeat;
+  background-size: 95% 95%;
+  color:white; 
+}
+
+/*.col-sm-5{background-color:blue;}*/
+
+.container{
+  background-color:lightblue;
+  margin-right:10px;
+  margin-left:5%;
+  max-width:90%;
+  margin-bottom:5%;
+}
+
+#banner{
+  /*left:89%;
+  width:290px;
+  height:15%;
+  background-color:green;
+  float:right;*/
+  width:300px;
+  margin-left:5%;
+ 
+  /*top:5px;*/
+  left:90%;
+  margin-top:5px;
+  position:absolute;
+  height:auto;
+  bottom:5%;
+   
+}
+#banner>img{
+  background-size:cover;
+  padding-left:11%;
+    
+}
+.col-sm-2{
+  background-color:orange;
+}
+
+.btn btn-link btn-primary{
+  background-color:pink;
+  left:50%;
+  width:1%;
+  height:1%;
+   
+}
+
+.button{
+  background-color:lightgreen;
+}
+
+/*body {
+    max-width: 99%;
+}*/
+
+#foto1>img{
+     /*background-image: url("");*/
+     max-width:100%;
+     position: relative;
+}
+
+#foto2>img{
+     max-width:100%;
+     position: relative;
+}
+
+#foto3>img{
+     max-width:100%;
+     position: relative;
+}
+
+#descrip{
+  background-color:lightgreen;
+  text-align:left;
+  border-radius: 10px;
+  /*box-shadow: 10px 10px grey;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:1%;
+  margin-bottom:0.5%;
+}
+
+p{
+  text-shadow: 0.1em 0.1em #ffffff
+}
+
+.row{ background-color: lightblue; }
+
+a:hover{ 
+color:##fff300; 
+} 
+
+/*a:visited{
+  color:rgb(255, 167, 0);
+}*/
+
+#fecha{
+  margin-top:1%;
+}
+
+#vacio{
+  background-color:#e6ffff;
+  text-shadow: 0.1em 0.1em #ffffff
+}
+
+#vacio>div>jardines.titulo{
+  
+  color:red;
+}
