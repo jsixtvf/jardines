@@ -45,8 +45,8 @@
               
               function ponerJardines(json){
                  $.each( json, function( ncargas, jardines ) {
-                     $("#vacio").append( $('<div img src="jardines.foto">',
-              { id: '"jardines"+ncargas+".json"', text: jardines.titulo+" "+jardines.descripcion+" "+jardines.fecha}));
+                     $("#vacio").append( $('<div>',
+              { id: '"jardines"+ncargas+".json"', text: jardines.titulo+" "+jardines.descripcion+" "+'"<img src="+jardines.foto+">"'+" "+jardines.fecha}));
  
                  }); 
             }
