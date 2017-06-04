@@ -35,13 +35,23 @@
             }
               
 
-           function ponerJardines(json){
+           /*function ponerJardines(json){
                  $.each( json, function( ncargas, jardines ) {
                      $("#vacio").append( $('<div>',
               { id: '"jardines"+ncargas+".json"', text: jardines.titulo+" "+jardines.foto+" "+jardines.descripcion+" "+jardines.fecha}));
  
                  }); 
+            }*/
+              
+              function ponerJardines(json){
+                 $.each( json, function( ncargas, jardines ) {
+                     $("#vacio").append( $('<div img src="jardines.foto">',
+              { id: '"jardines"+ncargas+".json"', text: jardines.titulo+" "+jardines.descripcion+" "+jardines.fecha}));
+ 
+                 }); 
             }
+              
+          
             
             
       });
