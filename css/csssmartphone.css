@@ -16,16 +16,16 @@
 
 #banner{
 
-  width:100%;
-  left:3%;
+  width:99%;
+  left:1%;
   position:fixed;
-  height:10px;
-  bottom:90%;
+  height:10%;
+  bottom:10%;
   background-color:green;
    
 }
 #banner>img{
-  background-size:cover;
+  background-size:contain;
   padding-left:7%;
     
 }
