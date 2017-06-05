@@ -23,8 +23,8 @@
    
 }
 #banner>img{
-  background-size:cover;
-  padding-left:50%;
+  background-size:contain;
+  padding-left:25%;
   /*max-height:100%;*/
 
 }
