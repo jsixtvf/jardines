@@ -18,10 +18,9 @@
 
   width:95%;
   left:35%;
-  margin-top:5px;
-  position:absolute;
-  height:auto;
-  bottom:100%;
+  position:fixed;
+  height:3%;
+  bottom:90%;
    
 }
 #banner>img{
