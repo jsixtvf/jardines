@@ -24,10 +24,9 @@
    
 }
 #banner>img{
-  background-size:cover;
-  padding-left:7%;
-  max-width:100%;
-  max-height:100%;
+  background-size:100% 100%;
+  /*padding-left:7%;
+  max-height:100%;*/
 
 }
 .col-sm-2{
