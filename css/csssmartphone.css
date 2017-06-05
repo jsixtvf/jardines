@@ -6,9 +6,9 @@
 
 .container{
   background-color:lightblue;
-  margin-right:10px;
+  margin-right:5px;
   margin-left:5%;
-  max-width:95%;
+  max-width:98%;
   margin-bottom:5%;
 }
 
@@ -84,5 +84,5 @@ color:##fff300;
 #vacio{
   background-color:#e6ffff;
   text-shadow: 0.1em 0.1em #ffffff
-  padding:3%;
+  padding:6%;
 }
