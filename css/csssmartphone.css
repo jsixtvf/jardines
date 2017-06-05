@@ -16,16 +16,17 @@
 
 #banner{
 
-  width:95%;
-  left:35%;
+  width:100%;
+  left:3%;
   position:fixed;
-  height:3%;
+  height:10px;
   bottom:90%;
+  background-color:green;
    
 }
 #banner>img{
   background-size:cover;
-  padding-left:11%;
+  padding-left:7%;
     
 }
 .col-sm-2{
