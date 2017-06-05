@@ -1,3 +1,9 @@
+
+4/06/2017
+
+Se adapta la imagen del banner para movil
+
+
 30/05/2017
 
 Se añaden mas noticias al html y una a cada archivo json. Implementándose el video y foto responsive para las plantillas de las 2 noticias más recientes. Cada foto se comprime en tinypng.com.
