@@ -4,8 +4,6 @@
   color:white; 
 }
 
-/*.col-sm-5{background-color:blue;}*/
-
 .container{
   background-color:lightblue;
   margin-right:10px;
@@ -31,9 +29,6 @@
   /*max-height:100%;*/
 
 }
-.col-sm-2{
-  background-color:orange;
-}
 
 .btn btn-link btn-primary{
   background-color:pink;
@@ -42,7 +37,6 @@
   height:1%;
    
 }
-
 
 #foto1>img{
      /*background-image: url("");*/
