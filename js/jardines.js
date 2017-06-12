@@ -1,5 +1,5 @@
       
-    var ncargas = 1;
+    var ncargas = 0;
 
  $(document).ready(function() {
 
@@ -10,7 +10,7 @@
 
          if ($(window).scrollTop() + $(window).height() > $(document).height() - 90) {
 
-               .getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines+"ncargas"+.json", 
+               .getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines++.json", 
                         function(jsonArray) {ponerJardines(jsonArray);}
                );
 
