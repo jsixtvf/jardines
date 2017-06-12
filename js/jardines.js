@@ -10,7 +10,7 @@
 
          if ($(window).scrollTop() + $(window).height() > $(document).height() - 90) {
 
-               .getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines1.json", 
+               $.getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines"+ncargas+".json", 
                         function(jsonArray) {ponerJardines(jsonArray);}
                );
 
