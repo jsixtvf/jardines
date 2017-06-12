@@ -11,9 +11,12 @@
 
              if ($(window).scrollTop() + $(window).height() > $(document).height() - 90 && ncargas<3) {
 
-                        $.getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines"+ncargas+".json", 
-                               function(jsonArray) {ponerJardines(jsonArray);}
-               );
+                        $.getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines"+ncargas+".json", function(jsonArray){
+                              
+                              ponerJardines(jsonArray);
+                                  
+                               }
+                        );
 
           
              ncargas++;
