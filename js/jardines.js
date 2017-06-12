@@ -9,10 +9,10 @@
       
             
 
-         if ($(window).scrollTop() + $(window).height() > $(document).height() - 90 && ncargas<3) {
+             if ($(window).scrollTop() + $(window).height() > $(document).height() - 90 && ncargas<3) {
 
-               $.getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines"+ncargas+".json", 
-                        function(jsonArray) {ponerJardines(jsonArray);}
+                        $.getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines"+ncargas+".json", 
+                               function(jsonArray) {ponerJardines(jsonArray);}
                );
 
           
@@ -23,8 +23,8 @@
               function ponerJardines(jsonArray) {
                     
              $.each(jsonArray, function(ncargas, noticia) {
-                 $("#vacio").append($("<div id='noticia"+(ncargas+2)+"'><h1>"+noticia.titulo+
-                                 "</h1><p>"+noticia.descripcion+"</p><img src='https://rawgit.com/jsixtvf/jardines/master/"+noticia.foto+"'></div>")        
+                        $("#vacio").append($("<div id='noticia"+(ncargas+2)+"'><h1>"+noticia.titulo+
+                                          "</h1><p>"+noticia.descripcion+"</p><img src='https://rawgit.com/jsixtvf/jardines/master/"+noticia.foto+"'></div>")        
                         );
 
                   });
