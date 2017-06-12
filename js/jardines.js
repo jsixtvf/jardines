@@ -23,7 +23,7 @@
              $.each(jsonArray, function(ncargas, noticia) {
                  $("#vacio").append($("<div id='noticia"+(i+2)+"'><h1>"+noticia.titulo+
                                  "</h1><p>"+noticia.descripcion+"</p><img src='https://rawgit.com/jsixtvf/jardines/master/"+noticia.foto+"'></div>")        
-                        ));
+                        );
 
                   });
             }
