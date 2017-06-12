@@ -6,10 +6,10 @@
 
      $(window).scroll(function() {
 
-      while(ncargas<3){
+      
             
 
-         if ($(window).scrollTop() + $(window).height() > $(document).height() - 90) {
+         if ($(window).scrollTop() + $(window).height() > $(document).height() - 90 && ncargas<3) {
 
                $.getJSON("https://rawgit.com/jsixtvf/jardines/master/json/jardines"+ncargas+".json", 
                         function(jsonArray) {ponerJardines(jsonArray);}
@@ -19,7 +19,7 @@
              ncargas++;
              }
 
-      }
+      
               function ponerJardines(jsonArray) {
                     
              $.each(jsonArray, function(ncargas, noticia) {
